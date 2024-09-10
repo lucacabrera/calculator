@@ -59,10 +59,22 @@ body {
     background-color: #4e4e50;
 }
 
+.number:hover, .decimal:hover{
+    background-color: #252527;
+}
+
 .operator, .equals {
     background-color: #c3083f;
 }
 
+.operator:hover, .equals:hover {
+    background-color: #780426;
+}
+
 .clear, .sign, .percent {
     background-color: #9f9fa1;
+}
+
+.clear:hover, .sign:hover, .percent:hover {
+    background-color: #4f4f50;
 }
